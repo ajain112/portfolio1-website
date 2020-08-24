@@ -1,0 +1,46 @@
+.cont{
+    float: right;
+    margin-top: 50px;
+    margin-right: 250px;
+}
+h1,h3{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+input{
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+button{
+    width: 350px;
+    border-radius: 10px;
+}
+.mess{
+    margin-bottom: 20px;
+}
+.mlogo{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    margin-left: 400px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.meet{
+    float: left;
+    align-self: auto;
+    margin-top: 3px;
+}
+h5{
+    margin-left: 380px;
+    color: white;
+}
+.meet h3{
+    margin-left: 330px;
+    margin-bottom: 20px;
+}
+footer{
+    position: fixed;
+}

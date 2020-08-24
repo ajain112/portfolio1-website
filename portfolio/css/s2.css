@@ -1,0 +1,128 @@
+    .abtpic {
+    margin-top: 20px;
+    opacity: 1;
+    display: block;
+    width: 700px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .who {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .pic1:hover .abtpic {
+    opacity: 0.3;
+  }
+  
+  .pic1:hover .who {
+    opacity: 1;
+  }
+  
+  .first {
+    background-color: #F06292;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  #overlay, #overla,#overl {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  h2{
+      text-align: center;
+  }
+  .abtpic1 {
+    margin-top: 20px;
+    opacity: 1;
+    display: block;
+    width: 700px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .love {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+  .pic2:hover .abtpic1 {
+    opacity: 0.3;
+  }
+  
+  .pic2:hover .love {
+    opacity: 1;
+  }
+  .second {
+    background-color: #F06292;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .abtpic2 {
+    margin-top: 20px;
+    opacity: 1;
+    display: block;
+    width: 700px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .he {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+  .pic2:hover .abtpic2 {
+    opacity: 0.3;
+  }
+  
+  .pic3:hover .he {
+    opacity: 1;
+  }
+  .third {
+    background-color: #F06292;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
